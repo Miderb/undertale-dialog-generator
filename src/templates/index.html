@@ -3,8 +3,8 @@
   <head>
     <meta name="viewport" content="width=800, initial-scale=1">
     <title>I'LL DO THE HOT VOICE!!!</title>
-    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='../static/css/main.min.css') }}"></link>
-    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='../static/css/fonts.css') }}"></link>
+    <link rel="stylesheet" type="text/css" href="../static/css/main.min.css"></link>
+    <link rel="stylesheet" type="text/css" href="../static/css/fonts.css"></link>
   </head>
 
   <body>
@@ -14,8 +14,8 @@
     $STATIC_ROOT = {{ url_for('static', filename='')|tojson|safe }};
     $SCRIPT_ROOT = {{ request.script_root|tojson|safe }};
   </script>
-  <script type="text/javascript" src="{{ url_for('static', filename='../static/js/elm.min.js') }}"></script>
-  <script type="text/javascript" src="{{ url_for('static', filename='../static/js/saveSvgAsPng.js') }}"></script>
-  <script type="text/javascript" src="{{ url_for('static', filename='../static/js/undertale.min.js') }}"></script>
+  <script type="text/javascript" src="../static/js/elm.min.js"></script>
+  <script type="text/javascript" src="../static/js/saveSvgAsPng.js"></script>
+  <script type="text/javascript" src="../static/js/undertale.min.js"></script>
 
 </html>
