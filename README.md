@@ -16,3 +16,5 @@ OR a radical reworking of front-end web development!
 
 The backend uses [Flask](http://flask.pocoo.org),
 which isn't quite as exciting but extremely simple and easy to use!
+
+Currently working on adding deltarune stuff
