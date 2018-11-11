@@ -15,7 +15,7 @@
     $SCRIPT_ROOT = {{ request.script_root|tojson|safe }};
   </script>
   <script type="text/javascript" src="{{ url_for('static', filename='../static/js/elm.min.js') }}"></script>
-  <script type="text/javascript" src="{{ url_for('static', filename='js/saveSvgAsPng.js') }}"></script>
-  <script type="text/javascript" src="{{ url_for('static', filename='js/undertale.min.js') }}"></script>
+  <script type="text/javascript" src="{{ url_for('static', filename='../static/js/saveSvgAsPng.js') }}"></script>
+  <script type="text/javascript" src="{{ url_for('static', filename='../static/js/undertale.min.js') }}"></script>
 
 </html>
