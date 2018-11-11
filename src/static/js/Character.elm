@@ -18,6 +18,7 @@ type Name
     | Mettaton
     | Asriel
     | Temmie
+    | Lancer
 
 
 allNames : List Name
@@ -33,6 +34,7 @@ allNames =
     , Mettaton
     , Asriel
     , Temmie
+    , Lancer
     ]
 
 
@@ -75,6 +77,9 @@ moodCount exmode c =
 
         Temmie ->
             3
+            
+        Lancer ->
+           22
 
 
 maxMoods : Bool -> Int
